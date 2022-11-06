@@ -1,14 +1,28 @@
 {
   "name": "node",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "demo project",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "author": "",
+  "author": "Sarika",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "yup": "^0.32.11"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarikas123/node_starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sarikas123/node_starter/issues"
+  },
+  "homepage": "https://github.com/sarikas123/node_starter#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
